@@ -1,0 +1,24 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom : 0;
+    width: 100vw;
+    height: 100vh;
+
+    object-fit: cover;
+    filter: brightness(0.3);
+    z-index: -1;
+}
+
+.header {
+    background-color: transparent;
+    text-align: center;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.icon-spotify {
+    height: 60px;
+}
